@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.box {
+  width: 80rem;
+  /* min-height: 100vh; */
+  border: solid;
+}
+
+.box .inner1 {
+  background-color: blue;
+  width: 50%;
+}
+.box .inner {
+  background-color: red;
+  width: 50%;
+}
+.inner1 {
+  text-align: center;
+}
+
+.stat {
+  margin-bottom: 1rem;
+}
+.inner1 h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+p {
+  color: gray;
+}
+.stats {
+  margin-top: 1rem;
+  text-align: center;
+}
